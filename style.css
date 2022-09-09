@@ -1,0 +1,228 @@
+*{
+  box-sizing: border-box;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url(images/header-bg.jpg);
+  background-size: cover;
+  padding: 10px 0;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  margin-left: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+/*Header*/
+.title {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title h1 {
+  font-size: 80px;
+  margin-bottom: 0;
+}
+
+.title p {
+  font-size: 60px;
+  margin: 0;
+  font-weight: 300;
+}
+
+/* ctrl+? to add comment */
+/*method 1 using float*/
+/*.about {
+  padding: 40px 0;
+}
+
+.about-left{
+  float:  left;
+  width: 30%;
+}
+
+.about-right{
+  float: right;
+  width: 70%;
+}
+
+.about-card {
+  float: left;
+  width: 48%;
+  margin-right：2%；
+}
+
+.about-card > img {
+  width: 100%;
+  height: auto;
+}*/
+
+.about {
+  padding: 40px 0;
+}
+
+.about-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-left {
+  width: 30%;
+}
+
+.about-right {
+  width: 70%;
+}
+
+.about-card{
+  width: 48%;
+}
+
+.about-card > img {
+  width:100%;
+  height: auto;
+}
+
+/*how to change letter oppacity*/
+.about-stats {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.about-numbers {
+  width: 32%;
+}
+
+.about-numbers h3{
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about-numbers p{
+  font-size: 35px;
+  font-weight: 300;
+  margin: 0;
+}
+
+/*contact form*/
+.contact {
+  padding: 60px 0;
+  background: lightblue;
+}
+
+.contact-form {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-input{
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.contact-input label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.contact-input input,
+.contact-input select {
+  padding: 10px 0;
+}
+
+.contact-input input,
+.contact-input select,
+.contact-input textarea {
+  width: 100%;
+}
+
+.full-with {
+  width: 100%;
+}
+
+/* Copy this to your .css file */
+.gallery-item {
+  float: left;
+  width: 25%;
+  aspect-ratio: 1;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news {
+  padding: 40px 0;
+}
+
+.news-flex {
+  display:  flex;
+  justify-content: space-between;
+}
+
+.news-left {
+  width: 30%;
+}
+
+.news-right{
+  width: 70%;
+}
+
+.news-card{
+  width: 100%
+}
+
+.news-extension img {
+  width: 3%;
+}
+
+.news-extension p{
+    font-size: 15px;
+  font-weight: 300;
+  margin: 0;
+}
+
+
